@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./src",
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es5",
+    "allowJs": false,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["./node_modules/**/*", "./dist"]
+}

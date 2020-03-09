@@ -1,0 +1,36 @@
+{
+  "name": "fregats",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "server": "nodemon --watch server/ --exec \"cd server && go build && server\" -e go"
+  },
+  "author": "Dmitry Shashkov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.3",
+    "@types/react": "^16.9.23",
+    "@types/styled-components": "^5.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "ts-loader": "^6.0.4",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/react-dom": "^16.9.5",
+    "axios": "^0.19.2",
+    "babylonjs": "^4.1.0",
+    "computed-styles": "^1.1.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1"
+  }
+}

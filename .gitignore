@@ -1,0 +1,5 @@
+.idea/
+.tern-port
+node_modules
+work
+server/*.exe
